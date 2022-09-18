@@ -97,4 +97,4 @@ John did not install the GUI in order to demonstrate the use of Powershell to se
 > - DNS 
 
 
-![[images/sconfig.gif]]
+![Changing IP Settings](images/sconfig.gif)

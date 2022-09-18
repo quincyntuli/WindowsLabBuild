@@ -1,4 +1,5 @@
 {
   "newLinkFormat": "absolute",
-  "attachmentFolderPath": "images"
+  "attachmentFolderPath": "images",
+  "promptDelete": false
 }
