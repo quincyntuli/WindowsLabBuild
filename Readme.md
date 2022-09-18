@@ -91,11 +91,10 @@ John did not install the GUI in order to demonstrate the use of Powershell to se
 `Sconfig`  is used to change  :
 
 > - Computername
-> - IP address
+> - IP Address
 > - Subnetmask
 > - Default Gateway
 > - DNS 
-
 
 
 ![[images/sconfig.gif]]
