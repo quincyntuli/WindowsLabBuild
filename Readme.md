@@ -50,7 +50,9 @@ winrm get winrm/config/client
 
 It is also useful to determine WinRM is running or not. On my system I ran `winrm get winrm/config/client` and got an error on the client while the server gave a result indicating that WinRM is already setup on the server.
 
-![[vmware_tYZU1v4Adk.gif]]
+
+
+![Changing IP Settings](images/sconfig.gif)
 
 
 John  starts the service on the client by in administrator powershell
@@ -97,4 +99,4 @@ John did not install the GUI in order to demonstrate the use of Powershell to se
 > - DNS 
 
 
-![Changing IP Settings](images/sconfig.gif)
+![Setting up IP](images/vmware_83CCdH17jH.gif)
