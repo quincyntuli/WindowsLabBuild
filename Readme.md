@@ -20,7 +20,7 @@ reg  add  HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig /v  BypassSecureBootCheck /t
 
 ## Enabling PSRemoting
 
-Prior to the workstation joining domain, the following are not yet setup on the client
+Prior to the workstation joining domain, the following are not yet setup on the client.
 
 > - WinRM is not configured/started
 > - The client is not yet part of the domain
