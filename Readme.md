@@ -100,3 +100,13 @@ John did not install the GUI in order to demonstrate the use of Powershell to se
 
 
 ![Setting up IP](images/vmware_83CCdH17jH.gif)
+
+## Joining The Computer to Domain
+
+```powershell
+Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
+```
+
+The result should look similar to the screenshot below. I missed capturing the screen the first time I did it. For that reason you are a seeing a 
+
+![Installing WIndows Features](images/Install-WindowsFeature.png)]
