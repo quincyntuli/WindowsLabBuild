@@ -7,11 +7,11 @@ This Lab is based almost exclusivley from John Hammond [Active Directory](https:
 
 ## Windows Setup
 
-Here I followed John Hammon's video on the setup for Windows 11 and Server 2022. What is special about this video is learning to use linked snapshot clones and the registry hack to make Windows 11 install without TPM and without encrypting the drive so that way we are able to clone.
+Here I followed John Hammon's video on the setup for Windows 11 and Server 2022. What is special about this video is learning to use linked snapshot clones and the registry hack to make Windows 11 install without TPM and without encrypting the drive so that way we are able to clone..
 
 I could not test the following script because of lazyness to retype on the  setup console, how ever the following should give an idea of the registry keys requited for Windows 11 to be able to install.
 
-```cmd
+```cmd  
 reg  add  HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig
 reg  add  HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig /v  BypassTPMCheck /t  REG_DWORD /d  1
 reg  add  HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig /v  BypassRAMCheck /t  REG_DWORD /d  1
