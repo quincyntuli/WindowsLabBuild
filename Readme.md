@@ -88,12 +88,12 @@ Test-WSMan RemoteDeviceName -Authentication Negotiate -Credential $credential
 
 ## Change Computername and DNS for server
 John did not install the GUI in order to demonstrate the use of Powershell to setup the services
-`Sconfig`  is used to change :
+`Sconfig`  is used to change ::
 
 > - Computername
 > - IP address
-> - Subnet mask
-> - Default gateway
+> - Subnetmask
+> - Default Gateway
 > - DNS 
 
 
