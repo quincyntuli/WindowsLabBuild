@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01 Setup the Server/Readme.md",
+            "file": "02 Join The Workstation to Domain/Readme.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Setup the Server/Readme.md",
+                "file": "02 Join The Workstation to Domain/Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Setup the Server/Readme.md",
+                "file": "02 Join The Workstation to Domain/Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Setup the Server/Readme.md"
+                "file": "02 Join The Workstation to Domain/Readme.md"
               }
             }
           }
@@ -130,8 +130,9 @@
   },
   "active": "6329b5477198cbba",
   "lastOpenFiles": [
-    "Readme.md",
     "01 Setup the Server/Readme.md",
+    "02 Join The Workstation to Domain/Readme.md",
+    "Readme.md",
     "images.md",
     "images 1.md",
     "images/Pasted image 20220917154528.png"
