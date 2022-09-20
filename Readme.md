@@ -6,8 +6,3 @@ This Lab is based almost exclusivley from John Hammond [Active Directory](https:
 >- Many other contributors I have started following from [my twitter list](https://twitter.com/i/lists/1570838875072765953)
 
 
-| Sections   |
-|----------|
-| [[01 Setup the Server/Readme]]('01 Setup the Server/Readme.md') | 
-|  | 
-|  | 
