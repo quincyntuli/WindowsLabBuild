@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Readme.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -130,9 +130,10 @@
   },
   "active": "6329b5477198cbba",
   "lastOpenFiles": [
-    "images 1.md",
+    "01 Setup the Server/Readme.md",
     "Readme.md",
     "images.md",
+    "images 1.md",
     "images/Pasted image 20220917154528.png"
   ]
 }
