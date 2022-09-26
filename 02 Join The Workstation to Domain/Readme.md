@@ -32,3 +32,28 @@ Set-DnsClientServerAddress -InterfaceIndex 4 -ServerAddresses ("192.168.1.155","
 Execution ...
 
 ![command sequence](images/execution.gif)
+
+## Finally adding the workstation
+
+### Renaming Current Workstation Name
+
+On my lab the workstations are built from a workstaion whose computer name is `VMWIN11`
+![Current Workstation Name](images/CurrentWorkstaionName.png)
+
+Since this is the generic name for all the templates, I needed to change the current computer name to WS1 (for Wokrstionn 1).
+
+```powershell
+$credentialWS1 = (Get-Credential)
+Rename-Computer -NewName "WS1" -LocalCredential $credentialWS1 -Restart
+
+```
+
+### Adding the new computer to the domain
+
+```powershell
+
+Add-Computer -DomainName xyz.com
+
+```
+
+![Add Computer to Domain](images/addComputerToDomain.png)
